@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Css Variables</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span><h1 class="highlight">JavaScript</h1></span>
+      <h2>CSS variables with</h2>
+      <label for="base">Base Color</label>
+      <input id="base" type="color" name="base" value="#ffc600" />
+
+      <div class="arrangeComp">
+        <div class="componentsContainer">
+          <label for="spacing">Spacing</label>
+          <input
+            class="padding"
+            id="spacing"
+            type="range"
+            min="10"
+            max="200"
+            name="spacing"
+            value="10"
+            data-sizing="px"
+          />
+        </div>
+        <div class="componentsContainer">
+          <label for="blur">Blur</label>
+          <input
+            class="padding"
+            id="blue"
+            type="range"
+            min="0"
+            max="200"
+            name="blur"
+            value="0"
+            data-sizing="px"
+          />
+        </div>
+      </div>
+
+      <img src="https://picsum.photos/500/300" alt="random picture" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

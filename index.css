@@ -1,0 +1,34 @@
+:root {
+  --spacing: 10px;
+  --base: #ffc600;
+  --blur: 0px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
+
+.highlight {
+  color: var(--base);
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.componentsContainer {
+  display: flex;
+  padding: 4rem 0 0 0;
+  justify-content: center;
+}
+
+.arrangeComp {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
